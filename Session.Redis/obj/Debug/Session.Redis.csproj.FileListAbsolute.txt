@@ -1,0 +1,68 @@
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\Session.Redis.dll
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\Session.Redis.pdb
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\Newtonsoft.Json.dll
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\System.Web.Helpers.dll
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\System.Web.Mvc.dll
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\System.Web.Razor.dll
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\System.Web.WebPages.dll
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\System.Web.WebPages.Razor.dll
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\Newtonsoft.Json.xml
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\System.Web.Helpers.xml
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\System.Web.Mvc.xml
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\System.Web.Razor.xml
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\System.Web.WebPages.xml
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\System.Web.WebPages.Razor.xml
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\obj\Debug\Session.Redis.csprojResolveAssemblyReference.cache
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\obj\Debug\Session.Redis.dll
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\obj\Debug\Session.Redis.pdb
+F:\RedisSession\Session.Redis\Session.Redis\bin\Session.Redis.dll
+F:\RedisSession\Session.Redis\Session.Redis\bin\Session.Redis.pdb
+F:\RedisSession\Session.Redis\Session.Redis\bin\log4net.dll
+F:\RedisSession\Session.Redis\Session.Redis\bin\Microsoft.Web.Infrastructure.dll
+F:\RedisSession\Session.Redis\Session.Redis\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+F:\RedisSession\Session.Redis\Session.Redis\bin\Newtonsoft.Json.dll
+F:\RedisSession\Session.Redis\Session.Redis\bin\RedisSessionProvider.dll
+F:\RedisSession\Session.Redis\Session.Redis\bin\StackExchange.Redis.dll
+F:\RedisSession\Session.Redis\Session.Redis\bin\System.Net.Http.Formatting.dll
+F:\RedisSession\Session.Redis\Session.Redis\bin\System.Web.Helpers.dll
+F:\RedisSession\Session.Redis\Session.Redis\bin\System.Web.Http.dll
+F:\RedisSession\Session.Redis\Session.Redis\bin\System.Web.Http.WebHost.dll
+F:\RedisSession\Session.Redis\Session.Redis\bin\System.Web.Mvc.dll
+F:\RedisSession\Session.Redis\Session.Redis\bin\System.Web.Razor.dll
+F:\RedisSession\Session.Redis\Session.Redis\bin\System.Web.WebPages.Deployment.dll
+F:\RedisSession\Session.Redis\Session.Redis\bin\System.Web.WebPages.dll
+F:\RedisSession\Session.Redis\Session.Redis\bin\System.Web.WebPages.Razor.dll
+F:\RedisSession\Session.Redis\Session.Redis\bin\log4net.xml
+F:\RedisSession\Session.Redis\Session.Redis\bin\Newtonsoft.Json.xml
+F:\RedisSession\Session.Redis\Session.Redis\bin\StackExchange.Redis.pdb
+F:\RedisSession\Session.Redis\Session.Redis\bin\StackExchange.Redis.xml
+F:\RedisSession\Session.Redis\Session.Redis\bin\System.Net.Http.Formatting.xml
+F:\RedisSession\Session.Redis\Session.Redis\bin\System.Web.Helpers.xml
+F:\RedisSession\Session.Redis\Session.Redis\bin\System.Web.Http.xml
+F:\RedisSession\Session.Redis\Session.Redis\bin\System.Web.Http.WebHost.xml
+F:\RedisSession\Session.Redis\Session.Redis\bin\System.Web.Mvc.xml
+F:\RedisSession\Session.Redis\Session.Redis\bin\System.Web.Razor.xml
+F:\RedisSession\Session.Redis\Session.Redis\bin\System.Web.WebPages.xml
+F:\RedisSession\Session.Redis\Session.Redis\bin\System.Web.WebPages.Deployment.xml
+F:\RedisSession\Session.Redis\Session.Redis\bin\System.Web.WebPages.Razor.xml
+F:\RedisSession\Session.Redis\Session.Redis\obj\Debug\Session.Redis.csprojResolveAssemblyReference.cache
+F:\RedisSession\Session.Redis\Session.Redis\obj\Debug\Session.Redis.dll
+F:\RedisSession\Session.Redis\Session.Redis\obj\Debug\Session.Redis.pdb
+F:\RedisSession\Session.Redis\Session.Redis\bin\Castle.Core.dll
+F:\RedisSession\Session.Redis\Session.Redis\bin\Castle.Windsor.dll
+F:\RedisSession\Session.Redis\Session.Redis\bin\Castle.Core.xml
+F:\RedisSession\Session.Redis\Session.Redis\bin\Castle.Windsor.xml
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\Castle.Core.dll
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\Castle.Windsor.dll
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\log4net.dll
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\RedisSessionProvider.dll
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\StackExchange.Redis.dll
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\Castle.Core.xml
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\Castle.Windsor.xml
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\log4net.xml
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\StackExchange.Redis.pdb
+C:\Users\Emre Tiryaki\Desktop\RedisSession\Session.Redis\Session.Redis\bin\StackExchange.Redis.xml

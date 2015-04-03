@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login Form</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/Login.css" rel="stylesheet" />
+    <link href="~/Content/showLoading.css" rel="stylesheet" />
+</head>
+<body ng-app="loginModule">
+    <div class="container">
+        <div class="alert" id="messageBox" style="display: none">
+            <button type="button" class="close" aria-hidden="true" id="closeMessageBtn">&times;</button>
+            <div id="message"></div>
+        </div>
+
+        <form class="form-signin" role="form" ng-controller="LoginController as actControl" name="loginForm" ng-submit="loginForm.$valid">
+            <h2>Login Form</h2>
+            <input type="text" required name="usercode" class="form-control" placeholder="username" ng-model="actControl.usercode" class="ng-dirty ng-valid">
+            <input type="password" required name="password" class="form-control" placeholder="password" ng-model="actControl.password" class="ng-dirty ng-valid">
+            <button type="submit" class="btn btn-lg btn-primary btn-block" name="btn" id="btn" ng-click="EntryLogin(actControl.usercode,actControl.password)">Login</button>
+            <div ng-bind="message"></div>
+        </form>
+    </div>
+</body>
+
+<script src="~/Script/angular.js"></script>
+<script src="~/Script/angular-route.js"></script>
+<script src="~/Script/jquery-1.9.1.js"></script>
+<script src="~/Script/jquery.showLoading.min.js"></script>
+<script src="~/Script/bootstrap.min.js"></script>
+<script src="~/Script/PageJs/Login.js"></script>
+<script src="~/Script/PageJs/login-repository.js"></script>
+<script src="~/Script/PageJs/login-controller.js"></script>
+<script src="~/Script/SharedServices.js"></script>
+</html>

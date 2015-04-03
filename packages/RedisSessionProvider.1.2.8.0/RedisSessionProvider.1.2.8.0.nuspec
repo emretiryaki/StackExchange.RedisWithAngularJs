@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>RedisSessionProvider</id>
+    <version>1.2.8.0</version>
+    <title>RedisSessionProvider</title>
+    <authors>DateHookup</authors>
+    <owners>DateHookup</owners>
+    <licenseUrl>https://github.com/welegan/RedisSessionProvider/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/welegan/RedisSessionProvider</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A configurable SessionStateStoreProvider that persists data to a Redis server</description>
+    <releaseNotes>RedisSessionProvider is a class library for persisting ASP.NET Session data to a Redis server. It is
+non-locking, meaning that multiple request threads can access the same Session object if multiple
+requests come in with the same Session ID. This allows for parallel requests but can result in race
+conditions if used improperly. 
+
+Please visit the project page at https://github.com/welegan/RedisSessionProvider for a more detailed 
+explanation of this and other behaviors.
+
+=================== Version Changelog ===================
+
+V1.2.8: Updated Json.NET dependency to 6.03, StackExchange.Redis to 1.0.322
+
+V1.2.7: Bug Fixes: values in Session_Start global asax events were not being written to Redis, they should now
+correctly persist. Redis TTL expiration times on all hashes are now always set (first-load sometimes did not
+set them)
+
+V1.2.6: RedisSessionAccessor's Session object now implements HttpSessionStateBase.SessionID
+
+V1.2.5: RedisSessionConfig now has a RedisWriteFieldDel and a RedisRemoveFieldDel for cases where you want
+to perform an action any time a hash key is changed or removed. Minor improvement to RedisJSONSerializer that
+will save some space in Redis hash if you store lots of bools or bytes in session
+
+V1.2.4: RedisSessionConfig now has a RedisSessionAccessorExceptionLoggingDel property for logging errors in
+RedisSessionAccessor. RedisConnectionConfig now has a GetSERedisServerConfigDbIndex property for specifying
+database index.
+
+V1.2.3: RedisSessionAccessor now returns a subclass of HttpSessionStateBase for its Session property so that
+it is more easily used.
+
+V1.2.2: Added RedisSessionAccessor class, allowing WebAPI and non-standard pipelines to use RedisSessionProvider.
+usage details on project page.
+
+V1.2.1: Now using StackExchange.Redis.ConfigurationOptions internally for handling connection data
+Updated StackExchange.Redis package reference
+
+V1.2.0: Redis client changed from BookSleeve to StackExchange.Redis
+IRedisSerializer method signatures changed to better mesh with the new SE.Redis client calls
+Various improvements to speed and memory usage
+TwemProxy support added (by SE.Redis)
+Added some unit tests, click project site link for details
+
+=================== StackExchange.Redis Client Library Above ===================
+
+Please note that BookSleeve is now abandoned in favor of StackExchange.Redis. However, since SE.Redis was only
+released in March of 2014, I've decided to leave the latest BookSleeve implementation available. I highly
+recommend you move to the SE.Redis version, though.
+
+=================== BookSleeve Redis Client Library Below ===================
+
+V1.1.2: Now partially covered by unit tests, improved some necessary locking behavior, minor edge case fixes
+
+V1.1.1: Added a maximum session size property to RedisConnectionConfig, and delegate that gets called when
+size is exceeded.
+
+V1.1.0: Updated to provide better multi-threaded behavior, now using a shared local cache as a middle layer
+between request and Redis
+
+V1.0.*: Initial Release, see https://github.com/welegan/RedisSessionProvider for details</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>SessionState Session SessionProvider Redis</tags>
+    <dependencies>
+      <dependency id="StackExchange.Redis" version="1.0.219" />
+      <dependency id="Newtonsoft.Json" version="6.0.1" />
+    </dependencies>
+  </metadata>
+</package>
